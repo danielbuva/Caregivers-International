@@ -1,0 +1,39 @@
+// import expert from "./Assests/expert.png";
+// import friend from "./Assests/friend.png";
+// import home from "./Assests/home.png";
+// import hospital from "./Assests/hospital.png";
+// import respite from "./Assests/respite.png";
+// import memory from "./Assests/memory.png";
+// import palliative from "./Assests/palliative.png";
+// import inclusive from "./Assests/inclusive.png";
+// const cardtitle = [
+//   "All Inclusive",
+//   "Memory Care",
+//   "Companion Care",
+//   "Respite Care",
+//   "Post Hospital Care",
+//   "In Home Care",
+//   "Palliative Care",
+//   "Not Sure",
+// ];
+// const cardtext = [
+//   "Personal Comprehensive Service",
+//   "Specialized Staff and Support",
+//   "Social Support",
+//   "Short Term Support",
+//   "Safe Service and Support",
+//   "Fulltime, Professional, Caregiving",
+//   "Calm, Comfort, Compassion",
+//   "Free Expert Consulting",
+// ];
+
+// export const card = [
+//   {image: inclusive, title: "All Inclusive", text: "Personal Comprehensive Service"}, 
+//   {image: memory, title: "Memory Care", text: "Specialized Staff and Support"}, 
+//   {image: friend, title: "Companion Care", text: "Social Support"},
+//   {image: respite, title: "Respite Care", text: "Short Term Support"}, 
+//   {image: hospital, title: "Post Hospital Care", text: "Safe Service and Support"},
+//   {image: memory, title: "In Home Care", text: "Fulltime, Professional, Caregiving"},
+//   {image: palliative, title: "Palliative Care", text: "Calm, Comfort, Compassion"},
+//   {image: inclusive, title: "Not Sure", text: "Free Expert Consulting"}
+// ];

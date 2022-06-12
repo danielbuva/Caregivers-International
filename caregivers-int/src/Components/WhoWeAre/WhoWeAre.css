@@ -1,0 +1,142 @@
+.about-container {
+  background-color: #d4e0bc;
+  width: 100vw;
+  height: 700px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.who-premise {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  text-align: left;
+  height: 90%;
+}
+.who-we-are {
+  color: black;
+  font-size: 36px;
+  font-weight: 690;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 20px;
+  width: 360px;
+  margin-right: 100px;
+  align-items: flex-start;
+  margin-bottom: 45px;
+}
+.know-us-button {
+  height: 50px;
+  width: 260px;
+  font-size: 18px;
+  background-color: #d4e0bc;
+  border: 1px solid;
+  border-radius: 23px;
+  transition: all 0.25s ease-out;
+}
+.know-us-button:hover {
+  cursor: pointer;
+  background-color: #396c1a;
+  color: white;
+}
+.conclusion {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  text-align: left;
+}
+.our-company {
+  color: black;
+  font-size: 36px;
+  font-weight: 690;
+  margin-bottom: 45px;
+}
+.c-row {
+  display: flex;
+}
+.cell {
+  display: flex;
+  width: 405px;
+  padding-bottom: 20px;
+}
+.cell-pic {
+  width: 69px;
+  height: 69px;
+  margin-right: 45px;
+}
+.cell-description {
+  text-align: left;
+  font-size: 20px;
+}
+.cell-title {
+  font-size: 28px;
+  margin-top: -5px;
+  margin-bottom: 0;
+}
+.cell-caption {
+  width: 266px;
+}
+@media screen and (max-width: 1356px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: fit-content;
+    margin-top: 40px;
+  }
+  .description {
+    width: 600px;
+  }
+  .who-premise {
+    margin-left: 50px;
+  }
+  .conclusion {
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .about-container {
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .who-premise {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    width: 90%;
+  }
+  .who-we-are {
+    margin: auto;
+  }
+  .description {
+    width: 90%;
+    margin: auto;
+    line-height: 33px;
+  }
+  .know-us-button {
+    margin: auto;
+  }
+  .conclusion {
+    text-align: center;
+    margin: auto;
+  }
+  .c-row {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+  .cell {
+    margin-bottom: 20px;
+  }
+  .cell-caption {
+    width: 250px;
+  }
+}

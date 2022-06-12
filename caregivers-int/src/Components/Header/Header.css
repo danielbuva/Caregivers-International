@@ -1,0 +1,286 @@
+.global-header {
+  position: sticky;
+  top: 0;
+  margin: auto;
+  z-index: 99;
+}
+.title > p {
+  margin: 0;
+}
+.title:hover {
+  color: #d4e0bc;
+  transition: 0.2s;
+}
+@media only screen and (min-width: 1356px) {
+  .header {
+    height: 80px;
+    min-width: 100vw;
+    display: flex;
+    background-color: #4c7533;
+    color: white;
+    transition: all 0.25s ease-in-out;
+  }
+  .header-shadowed {
+    height: 80px;
+    min-width: 100vw;
+    display: flex;
+    background-color: #4c7533;
+    color: white;
+    box-shadow: 0px 1px 12px 2px #888888;
+    transition: all 0.25s ease-in-out;
+  }
+  .company {
+    padding-left: 200px;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+  }
+  .title {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+    text-align: start;
+  }
+  .caregivers {
+    font-size: xx-large;
+    font-weight: 400;
+    font-stretch: 120%;
+    font-variant-caps: titling-caps;
+  }
+  .international {
+    font-size: 19px;
+    font-weight: 50;
+    font-family: "Franklin Gothic Small", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+  .title-logo {
+    width: 77px;
+    height: 77px;
+    margin-left: 20px;
+  }
+  .navigation {
+    padding-right: 170px;
+    display: flex;
+    margin: auto;
+  }
+  .navigation * {
+    margin-left: 29px;
+    margin-right: 29px;
+  }
+  .navigation *:hover {
+    color: #d4e0bc;
+    transition: 0.2s;
+  }
+  .nav-styles {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin-left: 29px;
+    margin-right: 29px;
+  }
+  .nav-styles:hover {
+    color: #d4e0bc;
+    transition: 0.2s;
+  }
+  .hamburger {
+    display: none;
+  }
+  .side-nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 696969;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7a983b;
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+    padding-right: 35px;
+    padding-top: 100px;
+    text-align: end;
+    align-items: flex-end;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+  }
+  .side-nav-styles {
+    padding: 5px;
+    font-size: xx-large;
+    line-height: 100px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+  }
+  .side-nav-styles:hover {
+    color: #d4e0bc;
+    transition: all 1s ease-in-out;
+  }
+  .side-nav-logo {
+    display: flex;
+
+    /* margin-left: 235px; */
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 1356px) {
+  .header {
+    height: 100px;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    text-align: start;
+    background-color: #4c7533;
+    color: white;
+  }
+  .header-shadowed {
+    height: 100px;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    text-align: start;
+    background-color: #4c7533;
+    color: white;
+    box-shadow: 0px 1px 12px 2px #888888;
+  }
+  .header-large{
+    height: 3000px;
+    background-color: black;
+    min-width: 100vw;
+  }
+  .company {
+    padding-left: 28px;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+  }
+  .title {
+    margin-left: -19px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+    text-align: start;
+  }
+  .caregivers {
+    font-size: xx-large;
+    font-weight: 400;
+    font-stretch: 120%;
+    font-variant-caps: titling-caps;
+  }
+  .international {
+    font-size: 18px;
+    font-weight: 50;
+    font-family: "Franklin Gothic Small", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+  .title-logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 19px;
+    padding-left: 10px;
+  }
+  .navigation {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    margin: 15px;
+    margin-right: 25px;
+    font-size: 50px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+  }
+  .hamburger:hover {
+    cursor: pointer;
+  }
+  .hamburger:active {
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  .x-button {
+    font-size: 35px;
+    margin: 0;
+    margin-top: -69px;
+    margin-right: 0px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .x-button:hover {
+    cursor: pointer;
+    color: #d4e0bc;
+    transition: 0.2s;
+  }
+  .x-button:active {
+    font-size: 30px;
+    margin-bottom: 7px;
+    color: #d4e0bc;
+    transition: 0.2s;
+  }
+  .side-nav {
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7a983b;
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+    padding-right: 35px;
+    padding-top: 100px;
+    text-align: end;
+    align-items: flex-end;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+  }
+  .side-nav-styles {
+    padding: 5px;
+    font-size: xx-large;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+  }
+  .side-nav-styles:hover {
+    color: #d4e0bc;
+    overflow: hidden;
+  }
+  .side-nav-logo {
+    display: flex;
+    width: 200px;
+  }
+}
